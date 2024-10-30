@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Assignment-1/moviesAPI/server.js",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "Assignment-1/moviesAPI/server.js"
+      "dest": "server.js"
     }
   ]
 }
